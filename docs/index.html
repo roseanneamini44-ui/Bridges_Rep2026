@@ -15,7 +15,6 @@
       <nav class="nav" aria-label="Main navigation">
         <a href="#about">About</a>
         <a href="#program">Program</a>
-        <a href="#apply">Apply</a>
         <button id="themeToggle" class="icon-btn" aria-label="Toggle theme">🌙</button>
       </nav>
     </div>
@@ -24,10 +23,9 @@
   <main class="container" id="content">
     <section class="hero" aria-labelledby="hero-heading">
       <h2 id="hero-heading" class="hero-title">Learn, build, and connect with AI this summer</h2>
-      <p class="lead">A friendly, interactive site for the Bridges AI Summer School. Explore the program and apply to join.</p>
+      <p class="lead">A friendly, interactive site for the Bridges AI Summer School. Explore the program and learn more.</p>
       <p class="hero-ctas">
         <a class="btn primary" href="#program">See Program</a>
-        <button id="openApply" class="btn outline">Apply Now</button>
       </p>
     </section>
 
@@ -54,11 +52,6 @@
       </div>
     </section>
 
-    <section id="apply" class="section" tabindex="-1">
-      <h3>Apply</h3>
-      <p>Applications are short—tell us about yourself and your interests. Click Apply Now to open the form.</p>
-    </section>
-
   </main>
 
   <footer class="site-footer" role="contentinfo">
@@ -66,24 +59,6 @@
       <p>Task 2 - Practice Website • <a href="https://github.com/roseanneamini44-ui/Bridges_Rep2026">Repository</a></p>
     </div>
   </footer>
-
-  <!-- Modal: simple application form -->
-  <div id="modal" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
-    <div class="modal-panel" role="document">
-      <button id="closeModal" class="close" aria-label="Close">✕</button>
-      <h3>Apply to Bridges AI Summer School 2026</h3>
-      <form id="applyForm">
-        <label>Full name <input name="name" required></label>
-        <label>Email <input type="email" name="email" required></label>
-        <label>Why do you want to join? <textarea name="why" rows="4" required></textarea></label>
-        <p class="form-actions">
-          <button type="submit" class="btn primary">Submit</button>
-          <button type="button" id="cancelForm" class="btn outline">Cancel</button>
-        </p>
-        <p id="formMessage" class="form-message" aria-live="polite"></p>
-      </form>
-    </div>
-  </div>
 
 </body>
 </html>
